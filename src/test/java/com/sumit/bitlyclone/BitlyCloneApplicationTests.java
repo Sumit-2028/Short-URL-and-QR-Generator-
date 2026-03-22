@@ -1,13 +1,12 @@
-package com.sumit.tinyurl;
+package com.sumit.bitlyclone;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TinyurlApplicationTests {
+class BitlyCloneApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
+    @Test
+    void contextLoads() {
+    }
 }

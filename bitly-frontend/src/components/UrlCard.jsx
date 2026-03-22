@@ -10,7 +10,7 @@ export default function UrlCard({ url, index, onDelete, isDeleting = false }) {
     setTimeout(() => setCopied(false), 2000);
   };
 
-  const displayUrl = url.shortUrl.replace('http://localhost:8080', 'snip.io');
+  const displayUrl = url.shortUrl;
   const date = new Date(url.createdAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
   const qrDataUrl = url.qrCode ? `data:image/png;base64,${url.qrCode}` : '';
 

@@ -11,7 +11,7 @@ public class UrlResponse {
     private Long id;
     private String originalUrl;
     private String shortCode;
-    private String shortUrl; // full short URL: http://localhost:8080/r/abc123
+    private String shortUrl;
     private String qrCode; // base64 encoded PNG image string
     private Long clickCount;
     private LocalDateTime createdAt;
