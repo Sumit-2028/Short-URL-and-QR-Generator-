@@ -9,8 +9,4 @@ import lombok.Data;
 public class UrlRequest {
     @NotBlank(message = "URL is required")
     private String originalUrl;
-
-    public String getOriginalUrl() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
 }
